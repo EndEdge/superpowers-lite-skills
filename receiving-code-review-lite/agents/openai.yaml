@@ -1,0 +1,4 @@
+interface:
+  display_name: "Receiving Code Review Lite"
+  short_description: "Evaluate review feedback before applying code changes"
+  default_prompt: "Use $receiving-code-review-lite to verify this feedback and decide what should change."

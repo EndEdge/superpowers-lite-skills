@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorming Lite"
+  short_description: "Turn implementation ideas into proportionate approved designs"
+  default_prompt: "Use $brainstorming-lite to clarify this change and propose a concise design before implementation."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Systematic Debugging Lite"
+  short_description: "Find evidence-backed root causes before changing code"
+  default_prompt: "Use $systematic-debugging-lite to investigate this failure and identify its root cause."
