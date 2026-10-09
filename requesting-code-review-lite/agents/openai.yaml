@@ -1,4 +1,4 @@
 interface:
   display_name: "Requesting Code Review Lite"
-  short_description: "Request an independent review of completed code changes"
-  default_prompt: "Use $requesting-code-review-lite to independently review these changes against the requirements."
+  short_description: "Review code directly; delegate only on explicit review requests"
+  default_prompt: "Use $requesting-code-review-lite to review these changes against the requirements."

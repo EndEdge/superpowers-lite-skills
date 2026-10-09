@@ -3,7 +3,7 @@
 Four small, standalone Codex skills adapted from selected workflows in [obra/superpowers](https://github.com/obra/superpowers):
 
 - `brainstorming-lite` clarifies intent and obtains design approval before implementation.
-- `requesting-code-review-lite` requests an independent sub-agent review by default.
+- `requesting-code-review-lite` supports main-agent review and permits sub-agent review only when the user explicitly requests review.
 - `receiving-code-review-lite` verifies review feedback before applying it.
 - `systematic-debugging-lite` finds evidence-backed root causes before fixing failures.
 
@@ -32,7 +32,7 @@ Restart or refresh Codex if the new skill is not discovered immediately.
 - Keep process proportional to the task.
 - Keep every skill independently understandable and installable.
 
-The code-review requester uses a reviewer sub-agent by default. It permits main-agent self-review only when the user explicitly allows skipping the sub-agent.
+The code-review requester allows the main agent to self-review without extra permission. It may spawn a reviewer sub-agent only when the user explicitly requests review and has not prohibited sub-agents. Routine development, delivery, and follow-up fixes do not authorize delegation on their own.
 
 ## Attribution and license
 
